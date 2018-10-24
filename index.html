@@ -9,15 +9,30 @@
 
 <body>
 <div class="container bg-light">
-  <div class="row">
-    <div class="bg-info m-3 col-xl-11 rounded">
-      <h1 class="text-center">simular el cálculo de las notas de un salón de clases con 10 estudiantes.</h1>
-    </div>
+  
+ 
+      <h1 class="text-center">Registro estudiante</h1>
+    
+  <div class="form-group">
+    <label for="">Codigo:</label>
+    <input type="email" class="form-control" id="codigo" aria-describedby="emailHelp" placeholder="Ingrese el codigo..">
+    <small id="emailHelp" class="form-text text-muted">No comparta su codigo con ninguna persona</small>
+	  <div class="form-group">
+	      <label for="">Nombre:</label>
+    <input type="email" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Ingrese su nombre..">
+		  </div>
+	  <div class="form-group">
+	      <label for="">Nota:</label>
+    <input type="email" class="form-control" id="nota" aria-describedby="emailHelp" placeholder="Ingrese su nota..">
+	  </div>
+  </div>
+	  <hr>
+ 
   </div>
   <div class="row">
     <div  class="col-12 col-xl-6 text-center offset-xl-3">
       <p>
-        <input type="button" class="btn btn-dark btn-lg btn-block" value="Mostrar datos de estudiantes" id="mostrar-datos">
+        <input type="button" class="btn btn-dark btn-lg btn-block" value="Registrar estudiante" id="mostrar-datos">
 		  
 		  	<div class="row">
 	
@@ -52,7 +67,7 @@
 	</div>
       </p>
       <p>
-        <input type="button" class="btn btn-dark btn-lg btn-block" value="Calcular la nota promedio" id="nota-prom">
+        <input type="button" class="btn btn-dark btn-lg btn-block" value="Mostrar promedio" id="nota-prom">
 		<p><span id="informacion"></span></p>
       </p>
       <p>
